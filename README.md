@@ -1,5 +1,5 @@
 # Time-Complexities
-Complexity to generate every combination of every size for a given sequence
+**Complexity to generate every combination of every size for a given sequence**
 
 Each element in the sequence is part of the combination or not (a binary choice). Since there are n elements, this gives 2n possible combinations.
 
@@ -16,7 +16,7 @@ By separately storing whether we are currently even/odd and flipping it, and sto
 
 -------------------------------------------------------------------------------------------------------------
 
-Combinations
-Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+**Combinations
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.**
 
 The complexity is O(C(n,k)) which is O(n choose k) . This ends up being equivalent to O(min(n^k, n^(n-k)))
